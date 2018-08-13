@@ -5,11 +5,8 @@ let pageWidth = window.innerWidth;
 let screenCssPixelRatio = window.innerWidth;
 
 (function() {
-  //   console.log("screenCssPixelRatio: " + screenCssPixelRatio);
-  //   console.log("Height: " + pageHight / 2);
   wrap.style.top = pageHight / 2.7 + "px";
   wrap.style.left = pageWidth / 3.6 + "px";
-  //   console.log((pageHight / 2).toString());
 })();
 
 var rgb1 = [0, 0, 0];
@@ -53,5 +50,5 @@ function bgChange() {
   }, ${rgb1[2]}),rgb(${rgb2[0]}, ${rgb2[1]}, ${rgb2[2]}))`;
   console.log(body.style.background);
 }
-// body.style.background = `linear-gradient(90deg,red,blue)`;
+
 let timerId = setInterval(bgChange, 500);
