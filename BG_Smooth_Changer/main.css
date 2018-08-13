@@ -1,0 +1,12 @@
+html,
+body {
+  height: 100%;
+}
+.card {
+  width: 40rem;
+}
+.wrap {
+  position: absolute;
+  /* top: 270px;
+  left: 480px; */
+}
