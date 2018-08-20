@@ -1,0 +1,28 @@
+html,
+body {
+  height: 100%;
+  background: linear-gradient(#2c3e50, #34495e);
+}
+.card {
+  width: 50rem;
+}
+.card-text {
+  margin-top: 30px;
+}
+
+.con-position {
+  margin: 50px 45vh;
+}
+.card-title {
+  margin: 5px;
+}
+
+.border {
+  border: 3px solid #2980b9 !important;
+}
+.input-group {
+  margin-bottom: 10px;
+}
+.btn-group {
+  margin-left: 45px;
+}
