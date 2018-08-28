@@ -26,3 +26,6 @@ body {
 .btn-group {
   margin-left: 45px;
 }
+.strike {
+  text-decoration: line-through;
+}
