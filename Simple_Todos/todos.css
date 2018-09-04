@@ -1,10 +1,12 @@
 html,
 body {
   height: 100%;
-  background: linear-gradient(#2c3e50, #34495e);
+  background-color: #6c5b7b;
+  /* background: linear-gradient(#2c3e50, #34495e); */
 }
 .card {
   width: 50rem;
+  background-color: #00adb5;
 }
 .card-text {
   margin-top: 30px;
@@ -18,7 +20,7 @@ body {
 }
 
 .border {
-  border: 3px solid #2980b9 !important;
+  border: 3px solid #eeeeee !important;
 }
 .input-group {
   margin-bottom: 10px;
